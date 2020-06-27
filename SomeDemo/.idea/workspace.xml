@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f40d155e-735a-4781-8c76-7d8056758989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classinitdemo/ClassInitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reflectdemo/ReflectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SomeDemo/codepointdemo/CodePointDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SomeDemo/codepointdemo/CodePointDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1dfxW2SN2SAaULxjx0kiwlpxQyY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,7 +47,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ReflectionTest">
+    <configuration name="ClassInitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classinitdemo.ClassInitDemo" />
+      <module name="SomeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classinitdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodePointDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codepointdemo.CodePointDemo" />
       <module name="SomeDemo" />
@@ -57,8 +74,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reflectdemo.ReflectionTest" />
+      <module name="SomeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reflectdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReflectionTest" />
+        <item itemvalue="Application.ClassInitDemo" />
         <item itemvalue="Application.CodePointDemo" />
       </list>
     </recent_temporary>
@@ -73,7 +105,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592829976114</updated>
-      <workItem from="1592829978768" duration="607000" />
+      <workItem from="1592829978768" duration="1381000" />
+      <workItem from="1592875197868" duration="3032000" />
+      <workItem from="1592897043674" duration="34000" />
+      <workItem from="1593228391629" duration="3196000" />
     </task>
     <servers />
   </component>
@@ -81,21 +116,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1258" height="298" key="GridCell.Tab.0.bottom" timestamp="1592830513489">
+    <state width="1258" height="346" key="GridCell.Tab.0.bottom" timestamp="1593231711301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="298" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592830513489" />
-    <state width="1258" height="298" key="GridCell.Tab.0.center" timestamp="1592830513489">
+    <state width="1258" height="346" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
+    <state width="1258" height="346" key="GridCell.Tab.0.center" timestamp="1593231711301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="298" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592830513489" />
-    <state width="1258" height="298" key="GridCell.Tab.0.left" timestamp="1592830513489">
+    <state width="1258" height="346" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
+    <state width="1258" height="346" key="GridCell.Tab.0.left" timestamp="1593231711301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="298" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592830513489" />
-    <state width="1258" height="298" key="GridCell.Tab.0.right" timestamp="1592830513489">
+    <state width="1258" height="346" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
+    <state width="1258" height="346" key="GridCell.Tab.0.right" timestamp="1593231711301">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="298" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592830513489" />
+    <state width="1258" height="346" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
+    <state x="906" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593228488944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="906" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593228488944" />
   </component>
 </project>
