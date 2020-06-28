@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f40d155e-735a-4781-8c76-7d8056758989" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/classinitdemo/ClassInitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reflectdemo/ReflectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clonedemo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/clonedemo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfacedemo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfacedemo/EmployeeSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfacedemo/LengthComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfacedemo/Sort_2Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdademo/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdademo/MethodQuote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SomeDemo/codepointdemo/CodePointDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SomeDemo/codepointdemo/CodePointDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +52,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.ReflectionTest">
-    <configuration name="ClassInitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classinitdemo.ClassInitDemo" />
+  <component name="RunManager" selected="Application.LambdaTest">
+    <configuration name="EmployeeSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.EmployeeSortTest" />
       <module name="SomeDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classinitdemo.*" />
+          <option name="PATTERN" value="interfacedemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodePointDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codepointdemo.CodePointDemo" />
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdademo.LambdaTest" />
       <module name="SomeDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codepointdemo.*" />
+          <option name="PATTERN" value="lambdademo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,11 +92,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sort_2Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfacedemo.Sort_2Demo" />
+      <module name="SomeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfacedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clonedemo.Test" />
+      <module name="SomeDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clonedemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaTest" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Sort_2Demo" />
+        <item itemvalue="Application.EmployeeSortTest" />
         <item itemvalue="Application.ReflectionTest" />
-        <item itemvalue="Application.ClassInitDemo" />
-        <item itemvalue="Application.CodePointDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -108,7 +141,9 @@
       <workItem from="1592829978768" duration="1381000" />
       <workItem from="1592875197868" duration="3032000" />
       <workItem from="1592897043674" duration="34000" />
-      <workItem from="1593228391629" duration="3196000" />
+      <workItem from="1593228391629" duration="3527000" />
+      <workItem from="1593243205609" duration="3973000" />
+      <workItem from="1593325798427" duration="1838000" />
     </task>
     <servers />
   </component>
@@ -116,22 +151,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1258" height="346" key="GridCell.Tab.0.bottom" timestamp="1593231711301">
+    <state x="737" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1593327811687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="346" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
-    <state width="1258" height="346" key="GridCell.Tab.0.center" timestamp="1593231711301">
+    <state x="737" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593327811687" />
+    <state width="1258" height="276" key="GridCell.Tab.0.bottom" timestamp="1593327640005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="346" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
-    <state width="1258" height="346" key="GridCell.Tab.0.left" timestamp="1593231711301">
+    <state width="1258" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593327640005" />
+    <state width="1258" height="276" key="GridCell.Tab.0.center" timestamp="1593327640004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="346" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
-    <state width="1258" height="346" key="GridCell.Tab.0.right" timestamp="1593231711301">
+    <state width="1258" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593327640004" />
+    <state width="1258" height="276" key="GridCell.Tab.0.left" timestamp="1593327640004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1258" height="346" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593231711301" />
+    <state width="1258" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593327640004" />
+    <state width="1258" height="276" key="GridCell.Tab.0.right" timestamp="1593327640004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1258" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593327640004" />
     <state x="906" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593228488944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
